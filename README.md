@@ -101,3 +101,13 @@ Import-Module .\gitlab-api.psm1
 ```
 
 ***Note:*** *You can also set `$env:GitLabPrivateToken`. For details on how, you should review the code for [Set-GitLabPrivateToken](functions/Set-GitLabPrivateToken.ps1)*
+
+# Notes
+
+Code is repo'd on GitHub.com and GitLab.com:
+ - https://github.com/Vertigion/GitLab-API
+ - https://gitlab.com/VertigoRay/GitLab-API
+
+Other tools used:
+- [REQUIREMENTS.json](https://github.com/Vertigion/REQUIREMENTS.json)
+- [Write-Log](https://github.com/UNT-CAS-ITS/Write-Log)
