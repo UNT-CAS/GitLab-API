@@ -8,7 +8,7 @@ if (-not (Test-GitLabPrivateToken)) { Set-GitLabPrivateToken }
 #>
 function Set-GitLabPrivateToken {
     param (
-        $Token = (Read-Host -AsSecureString 'Enter your GitLab Private Token (https://git.cas.unt.edu/profile/account)'),
+        $Token = (Read-Host -AsSecureString "Enter your GitLab Private Token (${GitLabProtocol}://${GitLabDomain}/profile/account)"),
         $Permanent = (Read-Host 'Set permanently? [Y|n]')
     )
     Write-Log '>'
