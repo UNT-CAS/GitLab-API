@@ -1,5 +1,7 @@
 GitLab API handler
 
+[![Build Status](https://git.cas.unt.edu/ci/projects/2/status.png?ref=master)](https://git.cas.unt.edu/ci/projects/2?ref=master)
+
 # Description
 
 PowerShell functions to easily interact with the GitLab API. When importing the module, you should supply the GitLabPrivateToken. Include any non-default parameters as well.
