@@ -52,6 +52,16 @@ $env:GitLabApi = ConvertTo-Json @{
     'GitLabVersion' = 'v2';
 } -Compress
 Import-Module .\gitlab-api.psm1
+.NOTES
+Code is repo'd on GitHub.com and GitLab.com:
+ - https://github.com/Vertigion/GitLab-API
+ - https://gitlab.com/VertigoRay/GitLab-API
+
+Other tools used:
+- [REQUIREMENTS.json](https://github.com/Vertigion/REQUIREMENTS.json)
+- [Write-Log](https://github.com/UNT-CAS-ITS/Write-Log)
+.LINK
+https://github.com/Vertigion/GitLab-API
 #>
 
 param(
