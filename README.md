@@ -8,7 +8,7 @@ PowerShell functions to easily interact with the GitLab API. When importing the 
 
 Alternatively, all parameters can be sotred in $env:GitLabApi (See Examples); which will overwrite any supplied parameters.
 
-Write-Log (https://github.com/UNT-CAS-ITS/Write-Log) is supported. If $env:Write-Log is not set, all log output will got to Write-Debug instead.
+[Write-Log](https://github.com/UNT-CAS-ITS/Write-Log) is supported. If $env:Write-Log is not set, all log output will got to Write-Debug instead.
 
 # PARAMETERS 
 
@@ -18,15 +18,15 @@ The API protocol. ie: http, https
 
 ## GitLabDomain
 
-The domain name of the GitLab server. More info: https://gitlab.com/help/api/README.md#introduction
+The domain name of the GitLab server. [More info](https://gitlab.com/help/api/README.md#introduction)
 
 ## GitLabApiVersion
 
-The API version as defined 'lib/api.rb'. More info: https://gitlab.com/help/api/README.md#introduction
+The API version as defined 'lib/api.rb'. [More info](https://gitlab.com/help/api/README.md#introduction)
 
 ## GitLabPrivateToken
 
-The Private Token provides the required authentication. More info: https://gitlab.com/help/api/README.md#introduction
+The Private Token provides the required authentication. [More info](https://gitlab.com/help/api/README.md#introduction)
 
 If the GitLabPrivateToken parameter is not supplied, $env:GitLabPrivateToken is audited with the `Test-GitLabPrivateToken` function to see if a valid SecureString is stored. If one does not exist as an Environment Variable, the user will be prompted to supply one.
 
