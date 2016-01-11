@@ -26,6 +26,4 @@ function Set-GitLabPrivateToken {
     if ($Permanent) {
         [Environment]::SetEnvironmentVariable('GitLabPrivateToken', (ConvertFrom-SecureString $Token), 'User')
     }
-
-    # _init
 }
