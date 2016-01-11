@@ -106,7 +106,7 @@ Import-Module .\gitlab-api.psm1
 
 Code is repo'd on GitHub.com and GitLab.com:
  - https://github.com/Vertigion/GitLab-API
- - https://gitlab.com/VertigoRay/GitLab-API
+ - https://gitlab.com/Vertigion/GitLab-API
 
 Other tools used:
 - [REQUIREMENTS.json](https://github.com/Vertigion/REQUIREMENTS.json)
