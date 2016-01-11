@@ -1,0 +1,5 @@
+pester_tests:
+  tags:
+    - Pester
+  script:
+    - Invoke-Pester -EnableExit
