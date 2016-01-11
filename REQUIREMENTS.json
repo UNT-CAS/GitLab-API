@@ -1,0 +1,12 @@
+[
+    {
+        "Command": "Write-Log",
+        "Version": "1.1.1",
+        "URL": "https://github.com/UNT-CAS-ITS/Write-Log/archive/v{0}.zip",
+        "URL_f": "$requirement.Version",
+        "Path": ".\\Write-Log-{0}\\",
+        "Path_f": "$requirement.Version",
+        "Import": ". {0}Write-Log-{1}\\Write-Log.ps1",
+        "Import_f": "@($Path , $requirement.Version)"
+    }
+]
