@@ -60,6 +60,8 @@ Code is repo'd on GitHub.com and GitLab.com:
 Other tools used:
 - [REQUIREMENTS.json](https://github.com/Vertigion/REQUIREMENTS.json)
 - [Write-Log](https://github.com/UNT-CAS-ITS/Write-Log)
+
+All `.Tests.ps1` files are run using [Pester](https://github.com/pester/Pester).
 .LINK
 https://github.com/Vertigion/GitLab-API
 #>
