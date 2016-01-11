@@ -99,3 +99,5 @@ $env:GitLabApi = ConvertTo-Json @{
 } -Compress
 Import-Module .\gitlab-api.psm1
 ```
+
+***Note:*** *You can also set `$env:GitLabPrivateToken`. For details on how, you should review the code for [Set-GitLabPrivateToken](functions/Set-GitLabPrivateToken.ps1)*
